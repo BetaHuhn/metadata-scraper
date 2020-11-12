@@ -18,7 +18,7 @@ A Javascript library for scraping/parsing metadata from a web page.
 - Language
 - Keywords
 - Author
-- and more (full list [below](#%F0%9F%93%87%20All%20metadata))
+- and more (full list [below](#-all-metadata))
 
 ## 🚀 Get started
 
@@ -70,7 +70,7 @@ This will return:
 }
 ```
 
-You can see a list of all metadata which [metadata-scraper](https://github.com/BetaHuhn/metadata-scraper) tries to scrape [below](#%F0%9F%93%87%20All%20metadata).
+You can see a list of all metadata which [metadata-scraper](https://github.com/BetaHuhn/metadata-scraper) tries to scrape [below](#-all-metadata).
 
 ## ⚙️ Configuration
 
