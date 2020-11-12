@@ -33,7 +33,7 @@ export interface Options {
     ua?: string
     timeout?: number
     forceImageHttps?: boolean
-    html?: boolean
+    html?: string
     url?: string
     customRules?: Record<string, RuleSet>
 }

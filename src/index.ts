@@ -55,7 +55,16 @@ const runRule = function(ruleSet: RuleSet, doc: Document, context: Context) {
 	return undefined
 }
 
-const getMetaData = async function(url: string, inputOptions: Partial<Options> = {}) {
+const getMetaData = async function(input: string | Partial<Options>, inputOptions: Partial<Options> = {}) {
+
+	let url
+	if (typeof input === 'object') {
+		inputOptions = input
+		url = input.url || ''
+	} else {
+		url = input
+	}
+
 	const options = Object.assign({}, defaultOptions, inputOptions)
 
 	const rules: Record<string, RuleSet> = { ...metaDataRules }
@@ -78,8 +87,7 @@ const getMetaData = async function(url: string, inputOptions: Partial<Options> =
 		})
 		html = response.body
 	} else {
-		html = url
-		url = options.url || ''
+		html = options.html
 	}
 
 	const metadata: MetaData = {}
