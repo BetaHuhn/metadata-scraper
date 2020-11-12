@@ -1,0 +1,15 @@
+{
+    "exclude": [
+      "node_modules/",
+      "tests/"
+    ],
+    "compilerOptions": {
+      "target": "es5",
+      "module": "commonjs",
+      "declaration": true,
+      "outDir": "./lib",
+      "strict": true,
+      "esModuleInterop": true
+    },
+    "include": ["src"]
+  }
