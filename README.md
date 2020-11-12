@@ -1,5 +1,5 @@
 <div align="center">
-  
+	
 # metadata-scraper
 
 [![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/BetaHuhn/metadata-scraper/blob/master/LICENSE) ![David](https://img.shields.io/david/betahuhn/metadata-scraper) [![npm](https://img.shields.io/npm/v/metadata-scraper)](https://www.npmjs.com/package/metadata-scraper)
@@ -20,7 +20,6 @@ A Javascript library for scraping/parsing metadata from a web page.
 - Author
 - and more (full list [below](#))
 
-
 ## 🚀 Get started
 
 Install [metadata-scraper](https://github.com/BetaHuhn/metadata-scraper) via npm:
@@ -30,7 +29,7 @@ npm install metadata-scraper
 
 ## 📚 Usage
 
-Import `metadata-scraper` and pass it an URL or options object:
+Import `metadata-scraper` and pass it a URL or options object:
 
 ```js
 const getMetaData = require('metadata-scraper')
@@ -60,14 +59,14 @@ This will return:
 
 ```js
 {
-  title: 'BetaHuhn/metadata-scraper',
-  description: 'A Javascript library for scraping/parsing metadata from a web page.',
-  language: 'en',
-  url: 'https://github.com/BetaHuhn/metadata-scraper',
-  provider: 'GitHub',
-  twitter: '@github',
-  image: 'https://avatars1.githubusercontent.com/u/51766171?s=400&v=4',
-  icon: 'https://github.githubassets.com/favicons/favicon.svg'
+	title: 'BetaHuhn/metadata-scraper',
+	description: 'A Javascript library for scraping/parsing metadata from a web page.',
+	language: 'en',
+	url: 'https://github.com/BetaHuhn/metadata-scraper',
+	provider: 'GitHub',
+	twitter: '@github',
+	image: 'https://avatars1.githubusercontent.com/u/51766171?s=400&v=4',
+	icon: 'https://github.githubassets.com/favicons/favicon.svg'
 }
 ```
 
@@ -79,7 +78,7 @@ You can change the behaviour of [metadata-scraper](https://github.com/BetaHuhn/m
 const getMetaData = require('../lib')
 
 const options = {
-  url: 'https://github.com/BetaHuhn/metadata-scraper', // URL of web page
+	url: 'https://github.com/BetaHuhn/metadata-scraper', // URL of web page
 	maxRedirects: 0, // Maximum number of redirects to follow (default: 5)
 	ua: 'MyApp', // User-Agent header
 	timeout: 1000, // Request timeout in milliseconds (default: 10000ms)
@@ -100,7 +99,7 @@ Here are some examples on how to use [metadata-scraper](https://github.com/BetaH
 
 ### Basic
 
-Pass an URL as the first parameter and [metadata-scraper](https://github.com/BetaHuhn/metadata-scraper) automatically scrapes it and returns everything it finds:
+Pass a URL as the first parameter and [metadata-scraper](https://github.com/BetaHuhn/metadata-scraper) automatically scrapes it and returns everything it finds:
 
 ```js
 const url = 'https://github.com/BetaHuhn/metadata-scraper'
@@ -117,13 +116,13 @@ If you already have an HTML string and don't want [metadata-scraper](https://git
 
 ```js
 const html = `
-  <meta name="og:title" content="Example">
-  <meta name="og:description" content="This is an example.">
+	<meta name="og:title" content="Example">
+	<meta name="og:description" content="This is an example.">
 `
 
 const options {
-  html: html, 
-  url: 'https://example.com' // Optional URL to make relative image paths absolute
+	html: html, 
+	url: 'https://example.com' // Optional URL to make relative image paths absolute
 }
 
 const data = await getMetaData(options)
@@ -141,7 +140,7 @@ You can expand [metadata-scraper](https://github.com/BetaHuhn/metadata-scraper) 
 
 ```js
 const options = {
-  url: 'https://github.com/BetaHuhn/metadata-scraper',
+	url: 'https://github.com/BetaHuhn/metadata-scraper',
 	customRules: {
 		name: {
 			rules: [
@@ -155,7 +154,9 @@ const options = {
 const data = await getMetaData(options)
 ```
 
-`customRules` needs to contain one or more objects, where the key (name above) is the key which later gets returned. You can then specify different rules for that item in the rules array.
+`customRules` needs to contain one or more objects, where the key (name above) will identify the value in the returned data. 
+
+You can then specify different rules for each item in the rules array. 
 
 The first item is the query which gets inserted into the browsers querySelector function, and the second item is a function which gets passed the HTML element:
 
@@ -167,13 +168,44 @@ You can also specify a `processor` function which will process/transform the res
 
 ```js
 {
-  processor: (text) => text.toLowerCase()
+	processor: (text) => text.toLowerCase()
 }
 ```
 
-If you find a useful metatag/rule, let me know and I will add them (or create a PR yourself).
+If you find a useful rule, let me know and I will add it (or create a PR yourself).
 
 Example file located at [examples/custom.js](/examples/custom.js).
+
+# All metadata
+
+Here's what [metadata-scraper](https://github.com/BetaHuhn/metadata-scraper) currently tries to scrape:
+
+```js
+{
+	title: 'Title of page or article',
+	description: 'Description of page or article',
+	language: 'Language of page or article',
+	type: 'Page type',
+	url: 'URL of page',
+	provider: 'Page provider',
+	keywords: ['array', 'of', 'keywords'],
+	section: 'Section/Category of page',
+	author: 'Article author',
+	published: 1605221765, // Date the article was published
+	modified: 1605221765, // Date the article was modified
+	robots: ['array', 'for', 'robots'],
+	copyright: 'Page copyright',
+	email: 'Contact email',
+	twitter: 'Twitter handle',
+	facebook: 'Facebook account id',
+	image: 'Image URL',
+	icon: 'Favicon URL',
+	video: 'Video URL',
+	audio: 'Audio URL'
+}
+```
+
+If you find a useful metatag, let me know and I will add it (or create a PR yourself).
 
 ## 💻 Development
 
