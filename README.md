@@ -18,7 +18,7 @@ A Javascript library for scraping/parsing metadata from a web page.
 - Language
 - Keywords
 - Author
-- and more (full list [below](#))
+- and more (full list [below](#%F0%9F%93%87%20All%20metadata))
 
 ## 🚀 Get started
 
@@ -69,6 +69,8 @@ This will return:
 	icon: 'https://github.githubassets.com/favicons/favicon.svg'
 }
 ```
+
+You can see a list of all metadata which [metadata-scraper](https://github.com/BetaHuhn/metadata-scraper) tries to scrape [below](#%F0%9F%93%87%20All%20metadata).
 
 ## ⚙️ Configuration
 
@@ -176,7 +178,7 @@ If you find a useful rule, let me know and I will add it (or create a PR yoursel
 
 Example file located at [examples/custom.js](/examples/custom.js).
 
-# All metadata
+# 📇 All metadata
 
 Here's what [metadata-scraper](https://github.com/BetaHuhn/metadata-scraper) currently tries to scrape:
 
@@ -223,7 +225,7 @@ This library was developed by me ([@betahuhn](https://github.com/BetaHuhn)) in m
 
 ### Credits
 
-The loader is based on [file-loader](https://github.com/webpack-contrib/file-loader).
+This library is based on Mozilla's [page-metadata-parser](https://github.com/mozilla/page-metadata-parser). I converted it to TypeScript, implemented a few new features, and added more rules.
 
 ## License
 
