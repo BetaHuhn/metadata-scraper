@@ -2,6 +2,6 @@ contact_links:
   - name: 📚 Docs
     url: https://github.com/BetaHuhn/metadata-scraper#%EF%B8%8F-configuration
     about: Checkout metadata-scraper's documentation before you open an issue.
-  - name: 🛠️ Examples
-    url: https://github.com/BetaHuhn/metadata-scraper#%EF%B8%8F-examples
-    about: Checkout a view examples on how to use metadata-scraper.
+  - name: 📖 Examples
+    url: https://github.com/BetaHuhn/metadata-scraper#%F0%9F%93%96-examples
+    about: Here are a few examples on how to use metadata-scraper.
