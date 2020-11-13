@@ -106,4 +106,5 @@ const getMetaData = async function(input: string | Partial<Options>, inputOption
 	return metadata
 }
 
+export default getMetaData
 module.exports = getMetaData
