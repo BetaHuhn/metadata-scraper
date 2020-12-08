@@ -1,6 +1,6 @@
 {
   "name": "metadata-scraper",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A Javascript library for scraping/parsing metadata from a web page.  ",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
