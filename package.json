@@ -1,6 +1,6 @@
 {
   "name": "metadata-scraper",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A Javascript library for scraping/parsing metadata from a web page.  ",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -20,17 +20,24 @@
   "homepage": "https://github.com/BetaHuhn/metadata-scraper#readme",
   "author": "Maximilian Schiller <hello@mxis.ch>",
   "license": "MIT",
-  "keywords": [],
+  "keywords": [
+    "metadata",
+    "meta-tags",
+    "metatags",
+    "open-graph",
+    "html-scraper",
+    "metadata-extraction"
+  ],
   "dependencies": {
     "domino": "^2.1.6",
     "got": "^11.8.0"
   },
   "devDependencies": {
     "@betahuhn/eslint-config-node": "^0.1.0",
-    "@typescript-eslint/eslint-plugin": "^4.8.1",
-    "@typescript-eslint/parser": "^4.8.1",
-    "eslint": "^7.14.0",
-    "ts-node": "^9.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.9.0",
+    "@typescript-eslint/parser": "^4.9.0",
+    "eslint": "^7.15.0",
+    "ts-node": "^9.1.0",
     "tsc-watch": "^4.2.9",
     "typescript": "^4.1.2"
   }
