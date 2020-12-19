@@ -82,7 +82,8 @@ const getMetaData = require('../lib')
 const options = {
 	url: 'https://github.com/BetaHuhn/metadata-scraper', // URL of web page
 	maxRedirects: 0, // Maximum number of redirects to follow (default: 5)
-	ua: 'MyApp', // User-Agent header
+	ua: 'MyApp', // Specify User-Agent header
+	lang: 'de-CH', // Specify Accept-Language header
 	timeout: 1000, // Request timeout in milliseconds (default: 10000ms)
 	forceImageHttps: false, // Force all image URLs to use https (default: true)
 	customRules: {} // more info below
