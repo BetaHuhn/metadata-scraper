@@ -31,6 +31,7 @@ export interface RuleSet {
 export interface Options {
     maxRedirects?: number
     ua?: string
+    lang?: string
     timeout?: number
     forceImageHttps?: boolean
     html?: string

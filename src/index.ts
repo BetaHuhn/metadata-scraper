@@ -7,6 +7,7 @@ import { metaDataRules } from './rules'
 const defaultOptions = {
 	maxRedirects: 5,
 	ua: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+	lang: '*',
 	timeout: 10000,
 	forceImageHttps: true,
 	customRules: {}
@@ -80,7 +81,8 @@ const getMetaData = async function(input: string | Partial<Options>, inputOption
 	if (!options.html) {
 		const response = await got(url, {
 			headers: {
-				'user-agent': options.ua
+				'User-Agent': options.ua,
+				'Accept-Language': options.lang
 			},
 			timeout: options.timeout,
 			...(options.maxRedirects === 0 ? { followRedirect: false } : { maxRedirects: options.maxRedirects })
