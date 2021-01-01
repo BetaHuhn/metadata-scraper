@@ -1,3 +1,7 @@
+## [v0.2.2] - 2021-01-01
+
+[Release notes](https://github.com/BetaHuhn/metadata-scraper/releases/tag/v0.2.2) · [Compare](https://github.com/BetaHuhn/metadata-scraper/compare/v0.2.1...v0.2.2) · [Tag](https://github.com/BetaHuhn/metadata-scraper/tree/v0.2.2) · Archive ([zip](https://github.com/BetaHuhn/metadata-scraper/archive/v0.2.2.zip) · [tar.gz](https://github.com/BetaHuhn/metadata-scraper/archive/v0.2.2.tar.gz))
+
 ## [v0.2.1] - 2021-01-01
 
 [Release notes](https://github.com/BetaHuhn/metadata-scraper/releases/tag/v0.2.1) · [Compare](https://github.com/BetaHuhn/metadata-scraper/compare/v0.2.0...v0.2.1) · [Tag](https://github.com/BetaHuhn/metadata-scraper/tree/v0.2.1) · Archive ([zip](https://github.com/BetaHuhn/metadata-scraper/archive/v0.2.1.zip) · [tar.gz](https://github.com/BetaHuhn/metadata-scraper/archive/v0.2.1.tar.gz))
