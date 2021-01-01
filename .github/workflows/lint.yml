@@ -1,13 +1,15 @@
-name: Lint
+name: Lint CI
 on:
   push:
-    branches: [ master ]
+    branches-ignore:
+      - master
   pull_request:
-    branches: [ master ]
+    branches-ignore:
+      - master
 jobs:
   lint:
     runs-on: ubuntu-latest
-    if: "!contains(github.event.head_commit.message, '[skip-build]')"
+    if: "!contains(github.event.head_commit.message, '[skip ci]')"
     steps:
       - uses: actions/checkout@v2
       - uses: c-hive/gha-npm-cache@v1

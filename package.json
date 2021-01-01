@@ -7,8 +7,7 @@
   "scripts": {
     "lint": "eslint ./src/ --ext .ts",
     "watch": "tsc -w -p tsconfig.json",
-    "build": "tsc -p tsconfig.json",
-    "prepare": "npm run build"
+    "build": "tsc -p tsconfig.json"
   },
   "repository": {
     "type": "git",
@@ -33,6 +32,7 @@
     "got": "^11.8.1"
   },
   "devDependencies": {
+    "@betahuhn/config": "^1.0.2",
     "@betahuhn/eslint-config-node": "^0.1.0",
     "@typescript-eslint/eslint-plugin": "^4.9.0",
     "@typescript-eslint/parser": "^4.9.0",
