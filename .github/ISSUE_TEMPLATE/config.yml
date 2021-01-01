@@ -1,7 +1,11 @@
+blank_issues_enabled: false
 contact_links:
   - name: 📚 Docs
     url: https://github.com/BetaHuhn/metadata-scraper#-usage
-    about: Checkout metadata-scraper's documentation before you open an issue.
-  - name: 📖 Examples
-    url: https://github.com/BetaHuhn/metadata-scraper#-examples
-    about: Here are a few examples on how to use metadata-scraper.
+    about: Checkout metadata-scraper's documentation
+  - name: 🚀 Feature Request
+    url: https://github.com/BetaHuhn/metadata-scraper/discussions/new?category=ideas
+    about: Share ideas for new features
+  - name: ❓ Ask a Question
+    url: https://github.com/BetaHuhn/metadata-scraper/discussions/new?category=q-a
+    about: Ask the community for help
