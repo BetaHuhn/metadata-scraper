@@ -7,7 +7,8 @@
   "scripts": {
     "lint": "eslint ./src/ --ext .ts",
     "watch": "tsc -w -p tsconfig.json",
-    "build": "tsc -p tsconfig.json"
+    "build": "tsc -p tsconfig.json",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
@@ -33,7 +34,6 @@
   },
   "devDependencies": {
     "@betahuhn/config": "^1.0.2",
-    "@betahuhn/eslint-config-node": "^0.1.0",
     "@typescript-eslint/eslint-plugin": "^4.9.0",
     "@typescript-eslint/parser": "^4.9.0",
     "eslint": "^7.15.0",
