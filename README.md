@@ -77,7 +77,7 @@ You can see a list of all metadata which [metadata-scraper](https://github.com/B
 You can change the behaviour of [metadata-scraper](https://github.com/BetaHuhn/metadata-scraper) by passing an options object:
 
 ```js
-const getMetaData = require('../lib')
+const getMetaData = require('metadata-scraper')
 
 const options = {
 	url: 'https://github.com/BetaHuhn/metadata-scraper', // URL of web page
@@ -105,8 +105,8 @@ Here are some examples on how to use [metadata-scraper](https://github.com/BetaH
 Pass a URL as the first parameter and [metadata-scraper](https://github.com/BetaHuhn/metadata-scraper) automatically scrapes it and returns everything it finds:
 
 ```js
-const url = 'https://github.com/BetaHuhn/metadata-scraper'
-const data = await getMetaData(url)
+const getMetaData = require('metadata-scraper')
+const data = await getMetaData('https://github.com/BetaHuhn/metadata-scraper')
 ```
 
 Example file located at [examples/basic.js](/examples/basic.js).
@@ -118,6 +118,8 @@ Example file located at [examples/basic.js](/examples/basic.js).
 If you already have an HTML string and don't want [metadata-scraper](https://github.com/BetaHuhn/metadata-scraper) to make an http request, specify it in the options object:
 
 ```js
+const getMetaData = require('metadata-scraper')
+
 const html = `
 	<meta name="og:title" content="Example">
 	<meta name="og:description" content="This is an example.">
@@ -142,6 +144,8 @@ Look at the `rules.ts` file in the `src` directory to see all rules which will b
 You can expand [metadata-scraper](https://github.com/BetaHuhn/metadata-scraper) easily by specifying custom rules:
 
 ```js
+const getMetaData = require('metadata-scraper')
+
 const options = {
 	url: 'https://github.com/BetaHuhn/metadata-scraper',
 	customRules: {
