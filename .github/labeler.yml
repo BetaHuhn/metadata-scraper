@@ -1,6 +1,0 @@
-config:
-  - ./*
-package:
-  - any: ["package.json", "package-lock.json"]
-source:
-  - src/**/*
