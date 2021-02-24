@@ -34,7 +34,7 @@ jobs:
       - name: Build TypeScript
         run: npm run build
       - name: Commit build
-        uses: stefanzweifel/git-auto-commit-action@v4.9.0
+        uses: stefanzweifel/git-auto-commit-action@v4.9.1
         with:
           commit_message: ":rocket: Deploy new version [skip ci]"
           commit_user_name: BetaHuhn Bot
