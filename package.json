@@ -4,6 +4,9 @@
   "description": "A Javascript library for scraping/parsing metadata from a web page.  ",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "lint": "eslint ./src/ --ext .ts",
     "watch": "tsc -w -p tsconfig.json",
