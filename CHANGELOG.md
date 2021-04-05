@@ -1,3 +1,13 @@
+## [v0.2.16] - 2021-04-05
+
+[Release notes](https://github.com/BetaHuhn/metadata-scraper/releases/tag/v0.2.16) · [Compare](https://github.com/BetaHuhn/metadata-scraper/compare/v0.2.15...v0.2.16) · [Tag](https://github.com/BetaHuhn/metadata-scraper/tree/v0.2.16) · Archive ([zip](https://github.com/BetaHuhn/metadata-scraper/archive/v0.2.16.zip) · [tar.gz](https://github.com/BetaHuhn/metadata-scraper/archive/v0.2.16.tar.gz))
+
+### Dependency updates
+
+- [`6f8ee8d`](https://github.com/BetaHuhn/metadata-scraper/commit/6f8ee8d)  Bump eslint from 7.22.0 to 7.23.0
+- [`c1a2c49`](https://github.com/BetaHuhn/metadata-scraper/commit/c1a2c49)  Bump @typescript-eslint/eslint-plugin from 4.19.0 to 4.20.0
+- [`e3e5f7b`](https://github.com/BetaHuhn/metadata-scraper/commit/e3e5f7b)  Bump @typescript-eslint/parser from 4.19.0 to 4.20.0
+
 ## [v0.2.15] - 2021-03-29
 
 [Release notes](https://github.com/BetaHuhn/metadata-scraper/releases/tag/v0.2.15) · [Compare](https://github.com/BetaHuhn/metadata-scraper/compare/v0.2.14...v0.2.15) · [Tag](https://github.com/BetaHuhn/metadata-scraper/tree/v0.2.15) · Archive ([zip](https://github.com/BetaHuhn/metadata-scraper/archive/v0.2.15.zip) · [tar.gz](https://github.com/BetaHuhn/metadata-scraper/archive/v0.2.15.tar.gz))
