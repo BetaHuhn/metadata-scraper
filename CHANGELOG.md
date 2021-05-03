@@ -1,3 +1,11 @@
+## [v0.2.19] - 2021-05-03
+
+[Release notes](https://github.com/BetaHuhn/metadata-scraper/releases/tag/v0.2.19) · [Compare](https://github.com/BetaHuhn/metadata-scraper/compare/v0.2.18...v0.2.19) · [Tag](https://github.com/BetaHuhn/metadata-scraper/tree/v0.2.19) · Archive ([zip](https://github.com/BetaHuhn/metadata-scraper/archive/v0.2.19.zip) · [tar.gz](https://github.com/BetaHuhn/metadata-scraper/archive/v0.2.19.tar.gz))
+
+### Dependency updates
+
+- [`491b51a`](https://github.com/BetaHuhn/metadata-scraper/commit/491b51a)  Bump eslint from 7.24.0 to 7.25.0
+
 ## [v0.2.18] - 2021-04-19
 
 [Release notes](https://github.com/BetaHuhn/metadata-scraper/releases/tag/v0.2.18) · [Compare](https://github.com/BetaHuhn/metadata-scraper/compare/v0.2.17...v0.2.18) · [Tag](https://github.com/BetaHuhn/metadata-scraper/tree/v0.2.18) · Archive ([zip](https://github.com/BetaHuhn/metadata-scraper/archive/v0.2.18.zip) · [tar.gz](https://github.com/BetaHuhn/metadata-scraper/archive/v0.2.18.tar.gz))
