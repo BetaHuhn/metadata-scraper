@@ -1,3 +1,16 @@
+## [v0.2.36] - 2021-08-24
+
+[Release notes](https://github.com/BetaHuhn/metadata-scraper/releases/tag/v0.2.36) · [Compare](https://github.com/BetaHuhn/metadata-scraper/compare/v0.2.35...v0.2.36) · [Tag](https://github.com/BetaHuhn/metadata-scraper/tree/v0.2.36) · Archive ([zip](https://github.com/BetaHuhn/metadata-scraper/archive/v0.2.36.zip) · [tar.gz](https://github.com/BetaHuhn/metadata-scraper/archive/v0.2.36.tar.gz))
+
+### Bug fixes
+
+- [`921be7a`](https://github.com/BetaHuhn/metadata-scraper/commit/921be7a)  Make default icon URL absolute
+
+### Dependency updates
+
+- [`c6a4e03`](https://github.com/BetaHuhn/metadata-scraper/commit/c6a4e03)  Bump @typescript-eslint/parser from 4.29.2 to 4.29.3
+- [`1d5b450`](https://github.com/BetaHuhn/metadata-scraper/commit/1d5b450)  Bump @typescript-eslint/eslint-plugin from 4.29.2 to 4.29.3
+
 ## [v0.2.35] - 2021-08-23
 
 [Release notes](https://github.com/BetaHuhn/metadata-scraper/releases/tag/v0.2.35) · [Compare](https://github.com/BetaHuhn/metadata-scraper/compare/v0.2.34...v0.2.35) · [Tag](https://github.com/BetaHuhn/metadata-scraper/tree/v0.2.35) · Archive ([zip](https://github.com/BetaHuhn/metadata-scraper/archive/v0.2.35.zip) · [tar.gz](https://github.com/BetaHuhn/metadata-scraper/archive/v0.2.35.tar.gz))
