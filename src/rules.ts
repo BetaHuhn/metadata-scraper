@@ -243,7 +243,7 @@ export const metaDataRules: Record<string, RuleSet> = {
 				}
 			}
 		},
-		defaultValue: () => 'favicon.ico',
+		defaultValue: (context) => makeUrlAbsolute(context.url, '/favicon.ico'),
 		processor: (iconUrl, context) => context.options.forceImageHttps === true ? makeUrlSecure(makeUrlAbsolute(context.url, iconUrl)) : makeUrlAbsolute(context.url, iconUrl)
 	},
 	video: {
