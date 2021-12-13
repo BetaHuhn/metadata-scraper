@@ -33,7 +33,7 @@
   ],
   "dependencies": {
     "domino": "^2.1.6",
-    "got": "^11.8.1"
+    "got": "^12.0.0"
   },
   "devDependencies": {
     "@betahuhn/config": "^1.0.2",
