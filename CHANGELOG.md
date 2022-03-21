@@ -1,3 +1,11 @@
+## [v0.2.52] - 2022-03-21
+
+[Release notes](https://github.com/BetaHuhn/metadata-scraper/releases/tag/v0.2.52) · [Compare](https://github.com/BetaHuhn/metadata-scraper/compare/v0.2.51...v0.2.52) · [Tag](https://github.com/BetaHuhn/metadata-scraper/tree/v0.2.52) · Archive ([zip](https://github.com/BetaHuhn/metadata-scraper/archive/v0.2.52.zip) · [tar.gz](https://github.com/BetaHuhn/metadata-scraper/archive/v0.2.52.tar.gz))
+
+### Dependency updates
+
+- [`8f1e821`](https://github.com/BetaHuhn/metadata-scraper/commit/8f1e821)  Bump tsc-watch from 4.6.1 to 4.6.2
+
 ## [v0.2.51] - 2022-03-14
 
 [Release notes](https://github.com/BetaHuhn/metadata-scraper/releases/tag/v0.2.51) · [Compare](https://github.com/BetaHuhn/metadata-scraper/compare/v0.2.50...v0.2.51) · [Tag](https://github.com/BetaHuhn/metadata-scraper/tree/v0.2.51) · Archive ([zip](https://github.com/BetaHuhn/metadata-scraper/archive/v0.2.51.zip) · [tar.gz](https://github.com/BetaHuhn/metadata-scraper/archive/v0.2.51.tar.gz))
