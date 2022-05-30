@@ -1,3 +1,11 @@
+## [v0.2.55] - 2022-05-30
+
+[Release notes](https://github.com/BetaHuhn/metadata-scraper/releases/tag/v0.2.55) · [Compare](https://github.com/BetaHuhn/metadata-scraper/compare/v0.2.54...v0.2.55) · [Tag](https://github.com/BetaHuhn/metadata-scraper/tree/v0.2.55) · Archive ([zip](https://github.com/BetaHuhn/metadata-scraper/archive/v0.2.55.zip) · [tar.gz](https://github.com/BetaHuhn/metadata-scraper/archive/v0.2.55.tar.gz))
+
+### Dependency updates
+
+- [`5c8f6a1`](https://github.com/BetaHuhn/metadata-scraper/commit/5c8f6a1)  Bump typescript from 4.6.4 to 4.7.2
+
 ## [v0.2.54] - 2022-05-02
 
 [Release notes](https://github.com/BetaHuhn/metadata-scraper/releases/tag/v0.2.54) · [Compare](https://github.com/BetaHuhn/metadata-scraper/compare/v0.2.53...v0.2.54) · [Tag](https://github.com/BetaHuhn/metadata-scraper/tree/v0.2.54) · Archive ([zip](https://github.com/BetaHuhn/metadata-scraper/archive/v0.2.54.zip) · [tar.gz](https://github.com/BetaHuhn/metadata-scraper/archive/v0.2.54.tar.gz))
