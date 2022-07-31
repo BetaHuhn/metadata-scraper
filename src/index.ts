@@ -2,6 +2,9 @@ import got from 'got'
 import * as domino from 'domino'
 
 import { Options, Context, RuleSet, MetaData } from './types'
+
+export * from './types'
+
 import { metaDataRules } from './rules'
 
 const defaultOptions = {
