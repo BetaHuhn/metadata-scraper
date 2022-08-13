@@ -1,3 +1,12 @@
+## [v0.2.58] - 2022-08-13
+
+[Release notes](https://github.com/BetaHuhn/metadata-scraper/releases/tag/v0.2.58) · [Compare](https://github.com/BetaHuhn/metadata-scraper/compare/v0.2.57...v0.2.58) · [Tag](https://github.com/BetaHuhn/metadata-scraper/tree/v0.2.58) · Archive ([zip](https://github.com/BetaHuhn/metadata-scraper/archive/v0.2.58.zip) · [tar.gz](https://github.com/BetaHuhn/metadata-scraper/archive/v0.2.58.tar.gz))
+
+### Updates
+
+- [`f80fc7a`](https://github.com/BetaHuhn/metadata-scraper/commit/f80fc7a)  Export types (#192)
+(Issues: [`#192`](https://github.com/BetaHuhn/metadata-scraper/issues/192))
+
 ## [v0.2.57] - 2022-06-27
 
 [Release notes](https://github.com/BetaHuhn/metadata-scraper/releases/tag/v0.2.57) · [Compare](https://github.com/BetaHuhn/metadata-scraper/compare/v0.2.56...v0.2.57) · [Tag](https://github.com/BetaHuhn/metadata-scraper/tree/v0.2.57) · Archive ([zip](https://github.com/BetaHuhn/metadata-scraper/archive/v0.2.57.zip) · [tar.gz](https://github.com/BetaHuhn/metadata-scraper/archive/v0.2.57.tar.gz))
