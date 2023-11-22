@@ -267,5 +267,13 @@ export const metaDataRules: Record<string, RuleSet> = {
 			[ 'meta[name="og:audio"][content]', (element) => element.getAttribute('content') ]
 		],
 		processor: (imageUrl: any, context) => context.options.forceImageHttps === true ? makeUrlSecure(makeUrlAbsolute(context.url, imageUrl)) : makeUrlAbsolute(context.url, imageUrl)
+	},
+	product: {
+		rules: [
+			[ 'meta[property="product:brand"][content]', (element) => element.getAttribute('content') ],
+			[ 'meta[property="product:price:amount"][content]', (element) => element.getAttribute('content') ],
+			[ 'meta[property="product:price:currency"][content]', (element) => element.getAttribute('content') ],
+			[ 'meta[property="product:availability"][content]', (element) => element.getAttribute('content') ],
+		]
 	}
 }
