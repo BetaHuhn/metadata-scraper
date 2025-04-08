@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "@betahuhn/config": "^1.0.2",
-    "@typescript-eslint/eslint-plugin": "^4.9.0",
+    "@typescript-eslint/eslint-plugin": "^8.29.1",
     "@typescript-eslint/parser": "^4.9.0",
     "eslint": "^7.15.0",
     "ts-node": "^9.1.0",
